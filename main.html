@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/main.css">
+</head>
+
+<body onload="run();">
+    <div class="container">
+        <header>
+            <h1>Social Media Dashboard</h1>
+        </header>
+        <div class="block">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">table</a></li>
+                <li><a href="#" onclick="showdataform();">Add</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <form id="addform">
+                    <input type="text" placeholder="Enter Email" id="emailadd">
+                    <input type="text" placeholder="Enter User  Name" 
+                    id="usernameadd">
+                    <button onclick="add()"> Add </button>
+                </form>
+            
+                 <form id="upform">
+                    <input type="text" placeholder="Enter Email" id="email">
+                    <input type="text" placeholder="Enter User  Name" id="username">
+                    <button onclick="finalupdate()"> Update </button>
+                </form>
+                
+                
+               
+                 <div class="search">
+                <!-- <button onclick="showdataform();">Add</button> -->
+            
+                
+               </div>
+                <div class="container" >
+                <table id="tabledata"> 
+                    <thead>
+                    <tr>
+                    <td>ID</td>
+                    <td>EMAILS</td>
+                    <td>USERNAME</td>
+                    <td colspan="3">ACTIONS</td>
+                    </thead>
+                    <tbody id="selecttable"></tbody>
+                </table>
+                </div>
+                </div>
+            </section>
+        </main>
+    </div>
+        <footer>
+            <p>&copy; 2024 Social Media Dashboard</p>
+        </footer>
+    </div>
+    <script src="/main.js"></script>
+</body>
+
+</html>

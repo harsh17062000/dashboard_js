@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.hero {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1732362937032-9a960c72cc05?q=80&w=1866&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+.hero .form {
+  width: 380px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  background: white;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.hero .form .button {
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  -webkit-box-shadow: 0 0 20px 9px #ff61241f;
+          box-shadow: 0 0 20px 9px #ff61241f;
+  border-radius: 30px;
+}
+
+.hero .form .button .btn {
+  padding: 10px 25px;
+  cursor: pointer;
+  background: transparent;
+  border: 0px;
+  outline: none;
+  position: relative;
+}
+
+.hero .form .button #btn {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#ff105f), to(#ffad06));
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border-radius: 30px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.hero .form .icons {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.hero .form .icons i {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.hero .form .form-input {
+  top: 180px;
+  position: absolute;
+  width: 250px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-align: center;
+  margin: 0px 0px 0px 40px;
+}
+
+.hero .form .form-input .input {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+
+.hero .form .form-input .sumit-btn {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: -webkit-gradient(linear, left top, right top, from(#ff105f), to(#ffad06));
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border: 0px;
+  outline: none;
+  border-radius: 30px;
+}
+
+.hero .form .form-input .checkbox {
+  margin: 10px 20px 30px 0;
+}
+
+.hero .form .form-input span {
+  color: #777;
+  font-size: 12px;
+  bottom: 68px;
+}
+
+#login {
+  left: 50px;
+}
+
+#registration {
+  left: 450px;
+}
+/*# sourceMappingURL=signup.css.map */

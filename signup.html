@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="hero">
+
+        <div class="form">
+            <div class="button">
+                <div id="btn"></div>
+                <button type="button" class="btn" onclick="login()">Log In</button>
+                <button type="button" class="btn" onclick="registration()">Registration</button>
+            </div>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <form  id="login" class="form-input">
+                <input type="email" class="input" id="email1" placeholder="User email" required>
+                <input type="text" class="input" id="password1" placeholder="Enter Password" required>
+                <input type="checkbox" class="checkbox"><span>Remember Password</span>
+                <button type="submit" class="sumit-btn" onclick=" return logins()">Log In</button>
+            </form>
+
+            <form id="registration" class="form-input">
+                <input type="text" class="input" id="id" placeholder="User Name" required>
+                <input type="email"class="input" id="email" placeholder="Email Id" required>
+                <input type="text" class="input" id="password" placeholder="Enter Password" required>
+                <input type="checkbox" class="checkbox"><span>I agree to the terms & condition</span>
+                <button type="submit" onclick="return signup()" class="sumit-btn">Registration</button>
+            </form>
+        </div>
+    </div>
+    <script src="/signup.js"></script>
+    <script src="/script.js"></script>
+    <script src="/login.js"></script>
+
+</body>
+</html>
